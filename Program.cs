@@ -6,7 +6,7 @@ void AskWords(string[] ArrayWords, string[] ArrayWords2)
     int count = 0;
     for (int i = 0; i < ArrayWords.Length; i++)
     {
-        if (ArrayWords[i] <= 3)
+        if (ArrayWords[i].Length <= 3)
         {
             ArrayWords2[count] = ArrayWords[i];
             count++;
