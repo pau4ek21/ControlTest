@@ -24,3 +24,6 @@ void PrintArrayWords(string[] array)
     Console.WriteLine();
 
 }
+
+AskWords(ArrayWords, ArrayWords2);
+PrintArrayWords(ArrayWords2);
