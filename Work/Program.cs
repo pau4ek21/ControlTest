@@ -27,4 +27,3 @@ void PrintArrayWords(string[] array)
 
 AskWords(ArrayWords, ArrayWords2);
 PrintArrayWords(ArrayWords2);
-//
